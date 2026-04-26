@@ -1,0 +1,24 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+lang_rag/
+venv/
+env/
+.venv/
+
+# Data & Embeddings (too large / not source code)
+data/audio/
+data/*.usearch
+data/ledger.json
+temp.wav
+
+# Environment secrets
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/
